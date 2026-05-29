@@ -15,8 +15,8 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Upload, RefreshCw, Trash2, ChevronRight, Check, Plus, Pencil, ArrowUpDown, ArrowUp, ArrowDown } from "lucide-react";
-import { vendasBulkImport, vendasList, vendasBatchesList, vendasBatchDelete, vendasHierarquiaList, previsaoSupsList, previsaoCreate, previsaoCreateBulk, previsaoGerentesList, previsaoDelete, previsaoUpdate, produtosPrevisaoList, produtoAliasesSugerir, produtoPrevisaoCreate, produtoPrevisaoDelete, produtoPrevisaoToggleAtivo, produtoAliasUpsert, previsaoGroupGet, previsaoGroupUpsert, produtoSolicitar } from "@/server/vendas.functions";
-import { hierarquiaAliasUpsert, hierarquiaAliasDelete } from "@/server/leads.functions";
+import { vendasBulkImport, vendasList, vendasBatchesList, vendasBatchDelete, vendasHierarquiaList, previsaoSupsList, previsaoCreate, previsaoCreateBulk, previsaoGerentesList, previsaoDelete, previsaoUpdate, produtosPrevisaoList, produtoAliasesSugerir, produtoPrevisaoCreate, produtoPrevisaoDelete, produtoPrevisaoToggleAtivo, produtoAliasUpsert, previsaoGroupGet, previsaoGroupUpsert, produtoSolicitar } from "@/fns/vendas.functions";
+import { hierarquiaAliasUpsert, hierarquiaAliasDelete } from "@/fns/leads.functions";
 import { fmtDateTime } from "@/lib/format";
 import { cyberBtnGhost } from "@/lib/cyber-ui";
 

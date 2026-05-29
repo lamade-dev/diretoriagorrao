@@ -20,7 +20,7 @@ import {
   produtoPrevisaoDelete,
   produtoAliasUpsert,
   produtoAliasDelete,
-} from "@/server/vendas.functions";
+} from "@/fns/vendas.functions";
 
 export const Route = createFileRoute("/_app/admin/painel")({
   component: PainelControle,

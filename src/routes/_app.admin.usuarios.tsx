@@ -12,7 +12,7 @@ import { Badge } from "@/components/ui/badge";
 import { Switch } from "@/components/ui/switch";
 import { toast } from "sonner";
 import { pushUndo } from "@/lib/undo";
-import { adminCreateUser, adminListUsers, adminUpdateUserEmail, adminUpdateUserName, adminUpdateUserCargo, adminSetUserAdmin, adminUpdateUserDiretor, adminUpdateUserVinculado, adminDeleteUser } from "@/server/admin-users.functions";
+import { adminCreateUser, adminListUsers, adminUpdateUserEmail, adminUpdateUserName, adminUpdateUserCargo, adminSetUserAdmin, adminUpdateUserDiretor, adminUpdateUserVinculado, adminDeleteUser } from "@/fns/admin-users.functions";
 import { Pencil, Users, Trash2, Plus } from "lucide-react";
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import { supabase } from "@/integrations/supabase/client";

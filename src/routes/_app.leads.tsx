@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { RefreshCw } from "lucide-react";
 import { toast } from "sonner";
-import { leadsResumoUser } from "@/server/leads.functions";
+import { leadsResumoUser } from "@/fns/leads.functions";
 import { ResumoTab } from "./_app.admin.leads";
 import { CyberBackdrop } from "@/components/CyberBackdrop";
 import { CyberHeading } from "@/components/cyber/CyberHeading";

@@ -30,7 +30,7 @@ import {
   hierarquiaAliasUpsert,
   hierarquiaAliasDelete,
   leadsAliasMover,
-} from "@/server/leads.functions";
+} from "@/fns/leads.functions";
 import { fmtDate, fmtDateTime } from "@/lib/format";
 import { CyberBackdrop } from "@/components/CyberBackdrop";
 import { CyberHeading } from "@/components/cyber/CyberHeading";
