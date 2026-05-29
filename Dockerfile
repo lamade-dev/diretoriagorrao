@@ -24,10 +24,10 @@ FROM node:22-alpine AS runner
 WORKDIR /app
 
 # Apenas o output compilado — sem node_modules
-COPY --from=builder /app/.output ./.output
+COPY --from=builder /app/dist ./dist
 
 ENV NODE_ENV=production
 ENV PORT=3000
 EXPOSE 3000
 
-CMD ["node", ".output/server/index.mjs"]
+CMD ["node", "dist/server/index.mjs"]
