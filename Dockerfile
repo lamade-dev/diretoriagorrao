@@ -17,7 +17,7 @@ ARG VITE_SUPABASE_PUBLISHABLE_KEY
 ENV VITE_SUPABASE_URL=$VITE_SUPABASE_URL
 ENV VITE_SUPABASE_PUBLISHABLE_KEY=$VITE_SUPABASE_PUBLISHABLE_KEY
 
-RUN npm run build
+RUN NODE_OPTIONS="--max-old-space-size=4096" npm run build
 
 # ── Etapa 3: imagem final mínima ─────────────────────────────
 FROM node:22-alpine AS runner
